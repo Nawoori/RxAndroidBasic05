@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     AsyncSubject<String> asyncSubject = AsyncSubject.create();
     public void doAscync(View view) {
         new Thread() {
